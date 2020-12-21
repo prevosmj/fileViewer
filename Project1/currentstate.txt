@@ -1,0 +1,18 @@
+Current State: <p>
+
+How everything works can be found in the <a design.txt design> file and the <a specs.txt specifications> file. <p>
+
+1. The anchors display as they should with the correct anchors shown next to them. <br>
+When a file is opened or the go/back command is done, all anchors show up underneath the commands to show available files. <p>
+
+2. The 'go' command works in every way as intended as far as I can tell. <p>
+
+3. Currently, the back command is not done. <p>
+
+4. Asking for the length happens right after asking for the height. It works for the most part, but when a link is displayed, the anchor text goes over the width limit. <br>
+Otherwise, the width retraints work as expected. <p>
+
+5. Using '<br>' works well and breaks the line right away. Using '<p>' works like '<br>' except there's an empty line between paragraphs. <br>
+Blank lines are ignored. <p>
+
+When it comes to functionality, the code works. The only issues are with the formatting of the width.

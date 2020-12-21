@@ -1,0 +1,10 @@
+﻿  Buffer.cpp
+C:\Users\Mike\Desktop\CodeStuff\CS142\Project1\Project1\Project1\Buffer.h(37,22): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Mike\Desktop\CodeStuff\CS142\Project1\Project1\Project1\Buffer.cpp(9,15): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Mike\Desktop\CodeStuff\CS142\Project1\Project1\Project1\Buffer.cpp(39,78): warning C4018: '<': signed/unsigned mismatch
+  fileDir.cpp
+C:\Users\Mike\Desktop\CodeStuff\CS142\Project1\Project1\Project1\Buffer.h(37,22): warning C4018: '>=': signed/unsigned mismatch
+  run.cpp
+C:\Users\Mike\Desktop\CodeStuff\CS142\Project1\Project1\Project1\Buffer.h(37,22): warning C4018: '>=': signed/unsigned mismatch
+  Generating Code...
+  Project1.vcxproj -> C:\Users\Mike\Desktop\CodeStuff\CS142\Project1\Project1\Debug\Project1.exe

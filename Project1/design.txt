@@ -1,0 +1,43 @@
+Directory <br>
+Version 1.0 <p>
+
+DESIGN <p>
+
+COMPONENT: class fileDir <p>
+
+A web of plaintext files that contain anchors to link to other files. <p>
+Everything is explained much better in the <a specs.txt specifications> <p>
+
+Public Method: <br>
+void run() <br>
+	Runs the file directory <br>
+	(The Buffer object is responsible for storing anchors, holding and displaying lines of text, as well as executing commands.) <p>
+
+COMPONENT: class Buffer <p>
+
+Stores and executes commands on lines of text. <br>
+Can access the anchors of files when needed. <p>
+
+Public Methods: <br>
+void display() const <br>
+	Displays the text of a file the user chooses to view. <br>
+
+const string & file_name() const <br>
+	Returns the filename of the currently accessed file. <p>
+
+const int & anchor() const <br>
+	Returns the anchor # of the currently accessed file. <br>
+	note: Anchors are stored in a vector of ints, but a history of previously visited anchors are stored in a seperate vector of ints. <p>
+
+void move_to_next_page() <br>
+void move_to_previous_page()
+bool open(const string& filename) <br>
+	Executes commands on the Buffer, open returns true if successful. <p>
+
+void set_window_height(int h) <br>
+void set_window width(int w) <br>
+	Self-Explanitory <p>
+
+	Each word is stored as a string and words are stored in a vector to avoid going over the width limit. <p>
+
+The current state of the code can be explained <a currentstate.txt here.>
